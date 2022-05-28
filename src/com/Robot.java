@@ -1,6 +1,5 @@
 package com;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Robot {
@@ -25,7 +24,6 @@ public class Robot {
 
 	public static void getPosition(int maxX, int maxY,int x, int y, String dir, String expression, boolean[][] particles)
 	{
-		String[] positions=new String[4];
 		boolean[][] visited=new boolean[maxX+1][maxY+1];
 		visited[x][y]=true;
 		int expLength=expression.length();
